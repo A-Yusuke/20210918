@@ -1,0 +1,46 @@
+body {
+  max-width: 1500px;
+}
+li {
+  list-style-type: none;
+  padding-left: 30px;
+}
+a {
+  text-decoration: none;
+}
+header h1,a {
+  color: rgb(55, 20, 150);
+}
+header {
+  margin: 0 auto;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'M PLUS 1p', sans-serif;
+  height: 20px;
+}
+.header-logo {
+  font-size: 24px;
+  line-height: 20px;
+}
+ul {
+  display: flex;
+  line-height: 20px;
+}
+.container {
+  margin: 0 auto;
+}
+.main-img {
+  width: 50%;
+  height: auto;
+  position: relative;
+  left: 50%;
+  top: -11.5vw;
+}
+.title {
+  font-size: 4vw;
+  width: 75%;
+  border-bottom: 15vw solid rgb(14, 14, 121);
+  position: relative;
+  top: 30vw;
+}
